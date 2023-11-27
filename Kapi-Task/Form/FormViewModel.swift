@@ -37,7 +37,7 @@ class FormViewModel {
     }
     
     func validate(title: String?, body: String?) -> Bool {
-        return !(((title?.isEmpty ?? true) || title == postTitlePlaceholder) && ((body?.isEmpty ?? true) || body == postBodyPlaceholder))
+        return !((title?.isEmpty ?? true) || title == postTitlePlaceholder || (body?.isEmpty ?? true) || body == postBodyPlaceholder)
     }
     
     func submit(title: String?, body: String?) {

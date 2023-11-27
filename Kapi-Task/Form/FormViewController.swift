@@ -10,8 +10,16 @@ import UIKit
 class FormViewController: BaseViewController {
 
     @IBOutlet weak var screenTitleLabel: UILabel!
-    @IBOutlet weak var titleTextView: UITextView!
-    @IBOutlet weak var bodyTextView: UITextView!
+    @IBOutlet weak var titleTextView: UITextView! {
+        didSet {
+            titleTextView.delegate = self
+        }
+    }
+    @IBOutlet weak var bodyTextView: UITextView! {
+        didSet {
+            bodyTextView.delegate = self
+        }
+    }
     @IBOutlet weak var actionButton: UIButton!
     
     var viewModel: FormViewModel?
@@ -25,7 +33,9 @@ class FormViewController: BaseViewController {
     private func showScreenDefaultData() {
         screenTitleLabel.text = viewModel?.getScreenTitle()
         titleTextView.text = viewModel?.post?.title ?? postTitlePlaceholder
+        titleTextView.textColor = viewModel?.post == nil ? .lightGray : .black
         bodyTextView.text = viewModel?.post?.body ?? postBodyPlaceholder
+        bodyTextView.textColor = viewModel?.post == nil ? .lightGray : .black
     }
 
     @IBAction func backButtonClicked(_ sender: Any) {
@@ -40,5 +50,23 @@ class FormViewController: BaseViewController {
         }
     }
 }
+
+extension FormViewController: UITextViewDelegate {
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.textColor == UIColor.lightGray {
+            textView.text = nil
+            textView.textColor = UIColor.black
+        }
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text.isEmpty {
+            textView.text = textView == titleTextView ? postTitlePlaceholder : postBodyPlaceholder
+            textView.textColor = UIColor.lightGray
+        }
+    }
+}
+
+
 
 

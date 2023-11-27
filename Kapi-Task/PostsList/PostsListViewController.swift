@@ -33,7 +33,6 @@ class PostsListViewController: BaseViewController {
 
 extension PostsListViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("count ----------------------- \(viewModel?.postsList.count ?? 0)")
         return viewModel?.postsList.count ?? 0
     }
         
