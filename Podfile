@@ -6,7 +6,11 @@ target 'Kapi-Task' do
   use_frameworks!
 
   # Pods for Kapi-Task
-
+  pod 'Alamofire'
+  pod 'SwiftLoader'
+  pod 'Swinject'
+  pod 'SwinjectAutoregistration'
+  
   target 'Kapi-TaskTests' do
     inherit! :search_paths
     # Pods for testing

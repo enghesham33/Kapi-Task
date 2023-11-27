@@ -8,14 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		00D249232B148A000084CDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249222B148A000084CDEC /* AppDelegate.swift */; };
-		00D249252B148A000084CDEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249242B148A000084CDEC /* SceneDelegate.swift */; };
-		00D249272B148A000084CDEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249262B148A000084CDEC /* ViewController.swift */; };
-		00D2492A2B148A000084CDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D249282B148A000084CDEC /* Main.storyboard */; };
 		00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492B2B148A020084CDEC /* Assets.xcassets */; };
 		00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */; };
 		00D2493A2B148A020084CDEC /* Kapi_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249392B148A020084CDEC /* Kapi_TaskTests.swift */; };
 		00D249442B148A030084CDEC /* Kapi_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */; };
 		00D249462B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */; };
+		00D249582B14D2000084CDEC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249572B14D2000084CDEC /* BaseViewController.swift */; };
+		00D2495C2B14D9A00084CDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2495B2B14D9A00084CDEC /* Main.storyboard */; };
+		00D2495E2B14DC5B0084CDEC /* PostsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2495D2B14DC5B0084CDEC /* PostsListViewModel.swift */; };
+		00D249612B14DD260084CDEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249602B14DD260084CDEC /* Post.swift */; };
+		00D249662B1507160084CDEC /* RegisterDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249632B1507150084CDEC /* RegisterDependencies.swift */; };
+		00D249672B1507160084CDEC /* RegisterRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249642B1507150084CDEC /* RegisterRepositories.swift */; };
+		00D249682B1507160084CDEC /* RegisterViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249652B1507160084CDEC /* RegisterViewModels.swift */; };
+		00D2496B2B1507DA0084CDEC /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2496A2B1507DA0084CDEC /* Coordinator.swift */; };
+		00D2496D2B1508100084CDEC /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2496C2B1508100084CDEC /* MainCoordinator.swift */; };
+		00D249702B1509290084CDEC /* PostsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2496E2B1509290084CDEC /* PostsListViewController.swift */; };
+		00D249712B1509290084CDEC /* PostsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D2496F2B1509290084CDEC /* PostsListViewController.xib */; };
+		00D249742B150C6D0084CDEC /* PostsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249732B150C6D0084CDEC /* PostsRepository.swift */; };
+		00D249762B150F2D0084CDEC /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249752B150F2D0084CDEC /* Result.swift */; };
+		00D249792B150F930084CDEC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249782B150F930084CDEC /* Constants.swift */; };
+		00D2497B2B1519B80084CDEC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D2497A2B1519B80084CDEC /* BaseView.swift */; };
+		00D249822B151DE10084CDEC /* RegisterViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249812B151DE10084CDEC /* RegisterViews.swift */; };
+		00D249862B1520D30084CDEC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249842B1520D30084CDEC /* PostCell.swift */; };
+		00D249872B1520D30084CDEC /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00D249852B1520D30084CDEC /* PostCell.xib */; };
 		2711B76C46FE8CC51C4DE320 /* Pods_Kapi_Task_Kapi_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2F1517585D2C2D5BCD9463 /* Pods_Kapi_Task_Kapi_TaskUITests.framework */; };
 		ADFF44C3648FCD437A6D385D /* Pods_Kapi_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB858324A9BEA216E63CDAD7 /* Pods_Kapi_TaskTests.framework */; };
 		F01D941F6F5A157E97F6715D /* Pods_Kapi_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1555BF61D6DD2C879C0EC6E /* Pods_Kapi_Task.framework */; };
@@ -41,9 +56,6 @@
 /* Begin PBXFileReference section */
 		00D2491F2B148A000084CDEC /* Kapi-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kapi-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D249222B148A000084CDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00D249242B148A000084CDEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00D249262B148A000084CDEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00D249292B148A000084CDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00D2492B2B148A020084CDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D2492E2B148A020084CDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00D249302B148A020084CDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +64,24 @@
 		00D2493F2B148A030084CDEC /* Kapi-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapi-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITests.swift; sourceTree = "<group>"; };
 		00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00D249572B14D2000084CDEC /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		00D2495B2B14D9A00084CDEC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00D2495D2B14DC5B0084CDEC /* PostsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewModel.swift; sourceTree = "<group>"; };
+		00D249602B14DD260084CDEC /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		00D249632B1507150084CDEC /* RegisterDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDependencies.swift; sourceTree = "<group>"; };
+		00D249642B1507150084CDEC /* RegisterRepositories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepositories.swift; sourceTree = "<group>"; };
+		00D249652B1507160084CDEC /* RegisterViewModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewModels.swift; sourceTree = "<group>"; };
+		00D2496A2B1507DA0084CDEC /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		00D2496C2B1508100084CDEC /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		00D2496E2B1509290084CDEC /* PostsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsListViewController.swift; sourceTree = "<group>"; };
+		00D2496F2B1509290084CDEC /* PostsListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsListViewController.xib; sourceTree = "<group>"; };
+		00D249732B150C6D0084CDEC /* PostsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsRepository.swift; sourceTree = "<group>"; };
+		00D249752B150F2D0084CDEC /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		00D249782B150F930084CDEC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00D2497A2B1519B80084CDEC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		00D249812B151DE10084CDEC /* RegisterViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViews.swift; sourceTree = "<group>"; };
+		00D249842B1520D30084CDEC /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		00D249852B1520D30084CDEC /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
 		02D556E5EFB68DB09F61A3C7 /* Pods-Kapi-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Kapi-TaskTests/Pods-Kapi-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		1F2F1517585D2C2D5BCD9463 /* Pods_Kapi_Task_Kapi_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kapi_Task_Kapi_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4840436EECF722840890B578 /* Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,11 +147,17 @@
 			isa = PBXGroup;
 			children = (
 				00D249222B148A000084CDEC /* AppDelegate.swift */,
-				00D249242B148A000084CDEC /* SceneDelegate.swift */,
-				00D249262B148A000084CDEC /* ViewController.swift */,
-				00D249282B148A000084CDEC /* Main.storyboard */,
+				00D249572B14D2000084CDEC /* BaseViewController.swift */,
+				00D2497A2B1519B80084CDEC /* BaseView.swift */,
+				00D249622B1506F80084CDEC /* DI */,
+				00D249692B1507C90084CDEC /* Coordinator */,
+				00D2495F2B14DCCD0084CDEC /* Models */,
+				00D249722B150C530084CDEC /* Repositories */,
+				00D249772B150F840084CDEC /* Utils */,
+				00D249522B14D1A40084CDEC /* PostsList */,
 				00D2492B2B148A020084CDEC /* Assets.xcassets */,
 				00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */,
+				00D2495B2B14D9A00084CDEC /* Main.storyboard */,
 				00D249302B148A020084CDEC /* Info.plist */,
 			);
 			path = "Kapi-Task";
@@ -144,6 +180,71 @@
 			path = "Kapi-TaskUITests";
 			sourceTree = "<group>";
 		};
+		00D249522B14D1A40084CDEC /* PostsList */ = {
+			isa = PBXGroup;
+			children = (
+				00D249832B1520BA0084CDEC /* Cell */,
+				00D2496E2B1509290084CDEC /* PostsListViewController.swift */,
+				00D2496F2B1509290084CDEC /* PostsListViewController.xib */,
+				00D2495D2B14DC5B0084CDEC /* PostsListViewModel.swift */,
+			);
+			path = PostsList;
+			sourceTree = "<group>";
+		};
+		00D2495F2B14DCCD0084CDEC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00D249602B14DD260084CDEC /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		00D249622B1506F80084CDEC /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				00D249632B1507150084CDEC /* RegisterDependencies.swift */,
+				00D249642B1507150084CDEC /* RegisterRepositories.swift */,
+				00D249652B1507160084CDEC /* RegisterViewModels.swift */,
+				00D249812B151DE10084CDEC /* RegisterViews.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		00D249692B1507C90084CDEC /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				00D2496A2B1507DA0084CDEC /* Coordinator.swift */,
+				00D2496C2B1508100084CDEC /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		00D249722B150C530084CDEC /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				00D249732B150C6D0084CDEC /* PostsRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		00D249772B150F840084CDEC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				00D249752B150F2D0084CDEC /* Result.swift */,
+				00D249782B150F930084CDEC /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		00D249832B1520BA0084CDEC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				00D249842B1520D30084CDEC /* PostCell.swift */,
+				00D249852B1520D30084CDEC /* PostCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		783E8E68FC73E4D1DF3B5E75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,7 +255,6 @@
 				663D19287CBFE21B10B3D552 /* Pods-Kapi-TaskTests.debug.xcconfig */,
 				02D556E5EFB68DB09F61A3C7 /* Pods-Kapi-TaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,6 +279,7 @@
 				00D2491B2B148A000084CDEC /* Sources */,
 				00D2491C2B148A000084CDEC /* Frameworks */,
 				00D2491D2B148A000084CDEC /* Resources */,
+				3534599D8CEAD901A35EA0E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +317,7 @@
 				00D2493B2B148A030084CDEC /* Sources */,
 				00D2493C2B148A030084CDEC /* Frameworks */,
 				00D2493D2B148A030084CDEC /* Resources */,
+				E1C26C42DA88173704921817 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -275,9 +377,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00D249712B1509290084CDEC /* PostsListViewController.xib in Resources */,
 				00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */,
+				00D249872B1520D30084CDEC /* PostCell.xib in Resources */,
 				00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */,
-				00D2492A2B148A000084CDEC /* Main.storyboard in Resources */,
+				00D2495C2B14D9A00084CDEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +424,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3534599D8CEAD901A35EA0E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task/Pods-Kapi-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task/Pods-Kapi-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task/Pods-Kapi-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C0A8A8426E0593A5534BBA85 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -340,6 +461,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C26C42DA88173704921817 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E49BFBD627218C21B7594E98 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,9 +509,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D249272B148A000084CDEC /* ViewController.swift in Sources */,
+				00D2495E2B14DC5B0084CDEC /* PostsListViewModel.swift in Sources */,
+				00D249822B151DE10084CDEC /* RegisterViews.swift in Sources */,
+				00D249742B150C6D0084CDEC /* PostsRepository.swift in Sources */,
+				00D2496D2B1508100084CDEC /* MainCoordinator.swift in Sources */,
+				00D249662B1507160084CDEC /* RegisterDependencies.swift in Sources */,
+				00D249582B14D2000084CDEC /* BaseViewController.swift in Sources */,
+				00D249682B1507160084CDEC /* RegisterViewModels.swift in Sources */,
+				00D249762B150F2D0084CDEC /* Result.swift in Sources */,
+				00D249792B150F930084CDEC /* Constants.swift in Sources */,
+				00D2496B2B1507DA0084CDEC /* Coordinator.swift in Sources */,
 				00D249232B148A000084CDEC /* AppDelegate.swift in Sources */,
-				00D249252B148A000084CDEC /* SceneDelegate.swift in Sources */,
+				00D249702B1509290084CDEC /* PostsListViewController.swift in Sources */,
+				00D2497B2B1519B80084CDEC /* BaseView.swift in Sources */,
+				00D249612B14DD260084CDEC /* Post.swift in Sources */,
+				00D249672B1507160084CDEC /* RegisterRepositories.swift in Sources */,
+				00D249862B1520D30084CDEC /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +561,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		00D249282B148A000084CDEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00D249292B148A000084CDEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -479,7 +622,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -533,7 +676,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -554,10 +697,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kapi-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,6 +709,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -582,10 +729,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kapi-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,6 +741,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
