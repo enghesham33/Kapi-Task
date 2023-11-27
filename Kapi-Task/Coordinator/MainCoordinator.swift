@@ -32,7 +32,13 @@ class MainCoordinator: Coordinator {
             self.navigationController.pushViewController(vc, animated: true)
             break
             
-        case .Form:
+        case .Form(let action, let post, let view):
+            let vc = FormViewController(nibName: "FormViewController", bundle: nil)
+            vc.viewModel = AppDelegate.container.resolve(FormViewModel.self)
+            vc.viewModel?.view = view
+            vc.viewModel?.action = action
+            vc.viewModel?.post = post
+            self.navigationController.pushViewController(vc, animated: true)
             break
         }
     }

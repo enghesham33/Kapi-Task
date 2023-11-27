@@ -21,26 +21,39 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcm-wN-EBm">
-                    <rect key="frame" x="16" y="59" width="361" height="24"/>
+                    <rect key="frame" x="171" y="59" width="51.333333333333343" height="27"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmH-qM-JNU">
+                    <rect key="frame" x="311" y="59" width="66" height="27"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Create post">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="createPostButtonPressed:" destination="-1" eventType="touchUpInside" id="Woj-2B-3aO"/>
+                    </connections>
+                </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="BEQ-WN-YbT">
-                    <rect key="frame" x="16" y="83" width="361" height="735"/>
+                    <rect key="frame" x="16" y="86" width="361" height="732"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mcm-wN-EBm" secondAttribute="trailing" constant="16" id="12d-iJ-xIA"/>
-                <constraint firstItem="BEQ-WN-YbT" firstAttribute="trailing" secondItem="mcm-wN-EBm" secondAttribute="trailing" id="Hiw-L6-YnB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BEQ-WN-YbT" secondAttribute="trailing" constant="16" id="4DA-Tg-oss"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JmH-qM-JNU" secondAttribute="trailing" constant="16" id="9a9-V6-pdu"/>
                 <constraint firstItem="BEQ-WN-YbT" firstAttribute="top" secondItem="mcm-wN-EBm" secondAttribute="bottom" id="Mu4-u3-rjP"/>
+                <constraint firstItem="BEQ-WN-YbT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="UI1-4C-TLR"/>
+                <constraint firstItem="JmH-qM-JNU" firstAttribute="top" secondItem="mcm-wN-EBm" secondAttribute="top" id="USc-Tk-Wkf"/>
                 <constraint firstItem="mcm-wN-EBm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="YXY-sP-I3q"/>
-                <constraint firstItem="BEQ-WN-YbT" firstAttribute="leading" secondItem="mcm-wN-EBm" secondAttribute="leading" id="pRz-xb-zpi"/>
+                <constraint firstItem="JmH-qM-JNU" firstAttribute="bottom" secondItem="mcm-wN-EBm" secondAttribute="bottom" id="dz4-RJ-4De"/>
+                <constraint firstItem="mcm-wN-EBm" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="vlJ-8j-ZVq"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="BEQ-WN-YbT" secondAttribute="bottom" id="xyB-Wg-cUn"/>
-                <constraint firstItem="mcm-wN-EBm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="y2z-UE-IO1"/>
             </constraints>
             <point key="canvasLocation" x="140" y="21"/>
         </view>

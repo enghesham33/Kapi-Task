@@ -10,7 +10,7 @@ target 'Kapi-Task' do
   pod 'SwiftLoader'
   pod 'Swinject'
   pod 'SwinjectAutoregistration'
-  
+  pod 'IQKeyboardManagerSwift'
   target 'Kapi-TaskTests' do
     inherit! :search_paths
     # Pods for testing

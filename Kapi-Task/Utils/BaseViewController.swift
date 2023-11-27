@@ -20,6 +20,8 @@ class BaseViewController: UIViewController {
     
     func showErrorMessage(errorMessage: String?) {
         let alert = UIAlertController(title: "Error", message: errorMessage, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default)
+        alert.addAction(okAction)
         present(alert, animated: true)
     }
 }

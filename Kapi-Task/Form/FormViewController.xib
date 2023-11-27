@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FormViewController" customModule="Kapi_Task" customModuleProvider="target">
+            <connections>
+                <outlet property="actionButton" destination="cjz-v3-8xY" id="yMO-nK-tPw"/>
+                <outlet property="bodyTextView" destination="e7l-jI-W7m" id="bjm-hE-hZj"/>
+                <outlet property="screenTitleLabel" destination="CYR-R9-IhW" id="sN6-B5-psB"/>
+                <outlet property="titleTextView" destination="hB3-qT-4xv" id="oP0-J2-vbt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A1k-Yd-CSO">
+                    <rect key="frame" x="16" y="59" width="24" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="ic_back">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="backButtonClicked:" destination="-1" eventType="touchUpInside" id="pce-ez-vtp"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Posts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYR-R9-IhW">
+                    <rect key="frame" x="171" y="59" width="51.333333333333343" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Post title here ..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hB3-qT-4xv">
+                    <rect key="frame" x="16" y="99" width="361" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="PbA-KV-jYh"/>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Post body here ..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e7l-jI-W7m">
+                    <rect key="frame" x="16" y="165" width="361" height="120"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="d8u-WE-Lpd"/>
+                    </constraints>
+                    <color key="textColor" systemColor="labelColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjz-v3-8xY">
+                    <rect key="frame" x="16" y="752" width="361" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Khd-9i-2Qp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Submit">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="actionButtonClicked:" destination="-1" eventType="touchUpInside" id="m8B-Ld-e2Z"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="e7l-jI-W7m" firstAttribute="top" secondItem="hB3-qT-4xv" secondAttribute="bottom" constant="16" id="2AD-uB-qJb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hB3-qT-4xv" secondAttribute="trailing" constant="16" id="9me-lB-upU"/>
+                <constraint firstItem="A1k-Yd-CSO" firstAttribute="top" secondItem="CYR-R9-IhW" secondAttribute="top" id="9qD-xB-3yQ"/>
+                <constraint firstItem="A1k-Yd-CSO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="I2x-9f-giG"/>
+                <constraint firstItem="CYR-R9-IhW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="PEV-Qf-fhw"/>
+                <constraint firstItem="hB3-qT-4xv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="PfI-GP-C5d"/>
+                <constraint firstItem="hB3-qT-4xv" firstAttribute="top" secondItem="CYR-R9-IhW" secondAttribute="bottom" constant="16" id="UMs-CG-PeL"/>
+                <constraint firstItem="e7l-jI-W7m" firstAttribute="trailing" secondItem="hB3-qT-4xv" secondAttribute="trailing" id="cFb-5o-ugS"/>
+                <constraint firstItem="CYR-R9-IhW" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="eaL-T3-FpL"/>
+                <constraint firstItem="e7l-jI-W7m" firstAttribute="leading" secondItem="hB3-qT-4xv" secondAttribute="leading" id="k1r-f7-Jei"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="cjz-v3-8xY" secondAttribute="bottom" constant="16" id="kho-zZ-Z51"/>
+                <constraint firstItem="cjz-v3-8xY" firstAttribute="leading" secondItem="e7l-jI-W7m" secondAttribute="leading" id="qgC-cD-NQE"/>
+                <constraint firstItem="A1k-Yd-CSO" firstAttribute="bottom" secondItem="CYR-R9-IhW" secondAttribute="bottom" id="sft-Cq-sWr"/>
+                <constraint firstItem="cjz-v3-8xY" firstAttribute="trailing" secondItem="e7l-jI-W7m" secondAttribute="trailing" id="swO-R7-eB1"/>
+            </constraints>
+            <point key="canvasLocation" x="-11.450381679389313" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back" width="24" height="24"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

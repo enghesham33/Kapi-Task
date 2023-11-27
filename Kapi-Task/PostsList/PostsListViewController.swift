@@ -26,10 +26,14 @@ class PostsListViewController: BaseViewController {
         viewModel?.getPostsList()
     }
     
+    @IBAction func createPostButtonPressed(_ sender: Any) {
+        MainCoordinator.shared?.push(destination: .Form(action: .Create, post: nil, view: self))
+    }
 }
 
 extension PostsListViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("count ----------------------- \(viewModel?.postsList.count ?? 0)")
         return viewModel?.postsList.count ?? 0
     }
         
@@ -40,7 +44,7 @@ extension PostsListViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("clicked post title is \(viewModel?.postsList[indexPath.row].title ?? "")")
+        MainCoordinator.shared?.push(destination: .Form(action: .Update, post: viewModel?.postsList[indexPath.row], view: self))
     }
     
 }
@@ -48,5 +52,31 @@ extension PostsListViewController: UITableViewDataSource, UITableViewDelegate {
 extension PostsListViewController: PostsListView {
     func showPosts() {
         postsTableView.reloadData()
+    }
+}
+
+extension PostsListViewController: FormView {
+    func postCreatedSuccessfully(post: Post?) {
+        if let post = post {
+            viewModel?.postsList.append(post)
+            postsTableView.reloadData()
+            if let count = viewModel?.postsList.count, count > 0 {
+                postsTableView.scrollToRow(at: IndexPath(row: count - 1, section: 0), at: .bottom, animated: true)
+            }
+        }
+    }
+    
+    func postUpdatedSuccessfully(post: Post?) {
+        if let post = post {
+            if let index = viewModel?.postsList.firstIndex(where: { currentPost in
+                post.id == currentPost.id
+            }) {
+                viewModel?.postsList[index] = post
+                postsTableView.reloadData()
+                postsTableView.scrollToRow(at: IndexPath(row: index, section: 0), at: .bottom, animated: true)
+            }
+            
+            
+        }
     }
 }

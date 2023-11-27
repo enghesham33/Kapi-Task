@@ -10,7 +10,7 @@ import UIKit
 
 enum Destination {
     case PostsList
-    case Form
+    case Form(action: FormScreenAction, post: Post?, view: FormView?)
 }
 
 protocol Coordinator {

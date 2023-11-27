@@ -16,9 +16,8 @@ class PostsListViewModel {
     
     var postsList = [Post]()
     
-    init(repository: PostsRepository?, view: PostsListView?) {
+    init(repository: PostsRepository?) {
         self.repository = repository
-        self.view = view
     }
     
     func getPostsList() {

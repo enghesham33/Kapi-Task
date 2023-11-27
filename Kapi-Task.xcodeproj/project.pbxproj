@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A554762B152C740071685A /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A554742B152C740071685A /* FormViewController.swift */; };
+		00A554772B152C740071685A /* FormViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A554752B152C740071685A /* FormViewController.xib */; };
+		00A554792B152CE30071685A /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A554782B152CE30071685A /* FormViewModel.swift */; };
+		00A5547B2B152F2D0071685A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5547A2B152F2D0071685A /* UIViewExtension.swift */; };
+		00A5547D2B15373A0071685A /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5547C2B15373A0071685A /* BaseRepository.swift */; };
 		00D249232B148A000084CDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249222B148A000084CDEC /* AppDelegate.swift */; };
 		00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492B2B148A020084CDEC /* Assets.xcassets */; };
 		00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */; };
@@ -54,6 +59,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A554742B152C740071685A /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		00A554752B152C740071685A /* FormViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViewController.xib; sourceTree = "<group>"; };
+		00A554782B152CE30071685A /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		00A5547A2B152F2D0071685A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		00A5547C2B15373A0071685A /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
 		00D2491F2B148A000084CDEC /* Kapi-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kapi-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D249222B148A000084CDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D2492B2B148A020084CDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,6 +131,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00A554732B152AD60071685A /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				00A554742B152C740071685A /* FormViewController.swift */,
+				00A554752B152C740071685A /* FormViewController.xib */,
+				00A554782B152CE30071685A /* FormViewModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 		00D249162B148A000084CDEC = {
 			isa = PBXGroup;
 			children = (
@@ -147,14 +167,13 @@
 			isa = PBXGroup;
 			children = (
 				00D249222B148A000084CDEC /* AppDelegate.swift */,
-				00D249572B14D2000084CDEC /* BaseViewController.swift */,
-				00D2497A2B1519B80084CDEC /* BaseView.swift */,
 				00D249622B1506F80084CDEC /* DI */,
 				00D249692B1507C90084CDEC /* Coordinator */,
 				00D2495F2B14DCCD0084CDEC /* Models */,
 				00D249722B150C530084CDEC /* Repositories */,
 				00D249772B150F840084CDEC /* Utils */,
 				00D249522B14D1A40084CDEC /* PostsList */,
+				00A554732B152AD60071685A /* Form */,
 				00D2492B2B148A020084CDEC /* Assets.xcassets */,
 				00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */,
 				00D2495B2B14D9A00084CDEC /* Main.storyboard */,
@@ -230,8 +249,12 @@
 		00D249772B150F840084CDEC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				00D249572B14D2000084CDEC /* BaseViewController.swift */,
+				00D2497A2B1519B80084CDEC /* BaseView.swift */,
 				00D249752B150F2D0084CDEC /* Result.swift */,
 				00D249782B150F930084CDEC /* Constants.swift */,
+				00A5547A2B152F2D0071685A /* UIViewExtension.swift */,
+				00A5547C2B15373A0071685A /* BaseRepository.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -381,6 +404,7 @@
 				00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */,
 				00D249872B1520D30084CDEC /* PostCell.xib in Resources */,
 				00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */,
+				00A554772B152C740071685A /* FormViewController.xib in Resources */,
 				00D2495C2B14D9A00084CDEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,9 +545,13 @@
 				00D2496B2B1507DA0084CDEC /* Coordinator.swift in Sources */,
 				00D249232B148A000084CDEC /* AppDelegate.swift in Sources */,
 				00D249702B1509290084CDEC /* PostsListViewController.swift in Sources */,
+				00A554792B152CE30071685A /* FormViewModel.swift in Sources */,
+				00A5547B2B152F2D0071685A /* UIViewExtension.swift in Sources */,
 				00D2497B2B1519B80084CDEC /* BaseView.swift in Sources */,
 				00D249612B14DD260084CDEC /* Post.swift in Sources */,
 				00D249672B1507160084CDEC /* RegisterRepositories.swift in Sources */,
+				00A554762B152C740071685A /* FormViewController.swift in Sources */,
+				00A5547D2B15373A0071685A /* BaseRepository.swift in Sources */,
 				00D249862B1520D30084CDEC /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

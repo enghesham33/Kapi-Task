@@ -12,6 +12,7 @@ extension Container {
     
     func registerViewModels() {
         autoregister(PostsListViewModel.self, initializer: PostsListViewModel.init)
+        autoregister(FormViewModel.self, initializer: FormViewModel.init)
     }
 }
 
