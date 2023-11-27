@@ -12,6 +12,7 @@
 		00A554792B152CE30071685A /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A554782B152CE30071685A /* FormViewModel.swift */; };
 		00A5547B2B152F2D0071685A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5547A2B152F2D0071685A /* UIViewExtension.swift */; };
 		00A5547D2B15373A0071685A /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5547C2B15373A0071685A /* BaseRepository.swift */; };
+		00A5547F2B1542520071685A /* Kapi_TaskFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5547E2B1542520071685A /* Kapi_TaskFormTests.swift */; };
 		00D249232B148A000084CDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249222B148A000084CDEC /* AppDelegate.swift */; };
 		00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492B2B148A020084CDEC /* Assets.xcassets */; };
 		00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */; };
@@ -64,6 +65,7 @@
 		00A554782B152CE30071685A /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
 		00A5547A2B152F2D0071685A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		00A5547C2B15373A0071685A /* BaseRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		00A5547E2B1542520071685A /* Kapi_TaskFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskFormTests.swift; sourceTree = "<group>"; };
 		00D2491F2B148A000084CDEC /* Kapi-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kapi-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D249222B148A000084CDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00D2492B2B148A020084CDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				00D2498C2B1528450084CDEC /* Kapi_TaskPostsListTests.swift */,
+				00A5547E2B1542520071685A /* Kapi_TaskFormTests.swift */,
 			);
 			path = "Kapi-TaskTests";
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D2498D2B1528450084CDEC /* Kapi_TaskPostsListTests.swift in Sources */,
+				00A5547F2B1542520071685A /* Kapi_TaskFormTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
