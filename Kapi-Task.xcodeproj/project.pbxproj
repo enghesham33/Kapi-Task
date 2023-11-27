@@ -16,6 +16,9 @@
 		00D2493A2B148A020084CDEC /* Kapi_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249392B148A020084CDEC /* Kapi_TaskTests.swift */; };
 		00D249442B148A030084CDEC /* Kapi_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */; };
 		00D249462B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */; };
+		2711B76C46FE8CC51C4DE320 /* Pods_Kapi_Task_Kapi_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2F1517585D2C2D5BCD9463 /* Pods_Kapi_Task_Kapi_TaskUITests.framework */; };
+		ADFF44C3648FCD437A6D385D /* Pods_Kapi_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB858324A9BEA216E63CDAD7 /* Pods_Kapi_TaskTests.framework */; };
+		F01D941F6F5A157E97F6715D /* Pods_Kapi_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1555BF61D6DD2C879C0EC6E /* Pods_Kapi_Task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		00D2493F2B148A030084CDEC /* Kapi-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapi-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITests.swift; sourceTree = "<group>"; };
 		00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02D556E5EFB68DB09F61A3C7 /* Pods-Kapi-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Kapi-TaskTests/Pods-Kapi-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F2F1517585D2C2D5BCD9463 /* Pods_Kapi_Task_Kapi_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kapi_Task_Kapi_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4840436EECF722840890B578 /* Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		663D19287CBFE21B10B3D552 /* Pods-Kapi-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Kapi-TaskTests/Pods-Kapi-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67C91417B837492E3698FE68 /* Pods-Kapi-Task-Kapi-TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-Task-Kapi-TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Kapi-Task-Kapi-TaskUITests/Pods-Kapi-Task-Kapi-TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		71E5F43845172B547CD3A1E9 /* Pods-Kapi-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-Task.release.xcconfig"; path = "Target Support Files/Pods-Kapi-Task/Pods-Kapi-Task.release.xcconfig"; sourceTree = "<group>"; };
+		BD7A876BBFBEEBD7A7D33704 /* Pods-Kapi-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kapi-Task.debug.xcconfig"; path = "Target Support Files/Pods-Kapi-Task/Pods-Kapi-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		E1555BF61D6DD2C879C0EC6E /* Pods_Kapi_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kapi_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB858324A9BEA216E63CDAD7 /* Pods_Kapi_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kapi_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F01D941F6F5A157E97F6715D /* Pods_Kapi_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADFF44C3648FCD437A6D385D /* Pods_Kapi_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2711B76C46FE8CC51C4DE320 /* Pods_Kapi_Task_Kapi_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				00D249382B148A020084CDEC /* Kapi-TaskTests */,
 				00D249422B148A030084CDEC /* Kapi-TaskUITests */,
 				00D249202B148A000084CDEC /* Products */,
+				783E8E68FC73E4D1DF3B5E75 /* Pods */,
+				EDE6C9C2C2DD24169D0FF27A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = "Kapi-TaskUITests";
 			sourceTree = "<group>";
 		};
+		783E8E68FC73E4D1DF3B5E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD7A876BBFBEEBD7A7D33704 /* Pods-Kapi-Task.debug.xcconfig */,
+				71E5F43845172B547CD3A1E9 /* Pods-Kapi-Task.release.xcconfig */,
+				67C91417B837492E3698FE68 /* Pods-Kapi-Task-Kapi-TaskUITests.debug.xcconfig */,
+				4840436EECF722840890B578 /* Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig */,
+				663D19287CBFE21B10B3D552 /* Pods-Kapi-TaskTests.debug.xcconfig */,
+				02D556E5EFB68DB09F61A3C7 /* Pods-Kapi-TaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EDE6C9C2C2DD24169D0FF27A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1555BF61D6DD2C879C0EC6E /* Pods_Kapi_Task.framework */,
+				1F2F1517585D2C2D5BCD9463 /* Pods_Kapi_Task_Kapi_TaskUITests.framework */,
+				EB858324A9BEA216E63CDAD7 /* Pods_Kapi_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D249492B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-Task" */;
 			buildPhases = (
+				E49BFBD627218C21B7594E98 /* [CP] Check Pods Manifest.lock */,
 				00D2491B2B148A000084CDEC /* Sources */,
 				00D2491C2B148A000084CDEC /* Frameworks */,
 				00D2491D2B148A000084CDEC /* Resources */,
@@ -151,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D2494C2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskTests" */;
 			buildPhases = (
+				00E9A2FF802D612FC2E2C832 /* [CP] Check Pods Manifest.lock */,
 				00D249312B148A020084CDEC /* Sources */,
 				00D249322B148A020084CDEC /* Frameworks */,
 				00D249332B148A020084CDEC /* Resources */,
@@ -169,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00D2494F2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskUITests" */;
 			buildPhases = (
+				C0A8A8426E0593A5534BBA85 /* [CP] Check Pods Manifest.lock */,
 				00D2493B2B148A030084CDEC /* Sources */,
 				00D2493C2B148A030084CDEC /* Frameworks */,
 				00D2493D2B148A030084CDEC /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E9A2FF802D612FC2E2C832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kapi-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0A8A8426E0593A5534BBA85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kapi-Task-Kapi-TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49BFBD627218C21B7594E98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kapi-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		00D2491B2B148A000084CDEC /* Sources */ = {
@@ -432,6 +545,7 @@
 		};
 		00D2494A2B148A030084CDEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7A876BBFBEEBD7A7D33704 /* Pods-Kapi-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +573,7 @@
 		};
 		00D2494B2B148A030084CDEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E5F43845172B547CD3A1E9 /* Pods-Kapi-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +601,7 @@
 		};
 		00D2494D2B148A030084CDEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 663D19287CBFE21B10B3D552 /* Pods-Kapi-TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +621,7 @@
 		};
 		00D2494E2B148A030084CDEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D556E5EFB68DB09F61A3C7 /* Pods-Kapi-TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +641,7 @@
 		};
 		00D249502B148A030084CDEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C91417B837492E3698FE68 /* Pods-Kapi-Task-Kapi-TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +659,7 @@
 		};
 		00D249512B148A030084CDEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4840436EECF722840890B578 /* Pods-Kapi-Task-Kapi-TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
