@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D249232B148A000084CDEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249222B148A000084CDEC /* AppDelegate.swift */; };
+		00D249252B148A000084CDEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249242B148A000084CDEC /* SceneDelegate.swift */; };
+		00D249272B148A000084CDEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249262B148A000084CDEC /* ViewController.swift */; };
+		00D2492A2B148A000084CDEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D249282B148A000084CDEC /* Main.storyboard */; };
+		00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492B2B148A020084CDEC /* Assets.xcassets */; };
+		00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */; };
+		00D2493A2B148A020084CDEC /* Kapi_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249392B148A020084CDEC /* Kapi_TaskTests.swift */; };
+		00D249442B148A030084CDEC /* Kapi_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */; };
+		00D249462B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00D249362B148A020084CDEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D249172B148A000084CDEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D2491E2B148A000084CDEC;
+			remoteInfo = "Kapi-Task";
+		};
+		00D249402B148A030084CDEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00D249172B148A000084CDEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00D2491E2B148A000084CDEC;
+			remoteInfo = "Kapi-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D2491F2B148A000084CDEC /* Kapi-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kapi-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D249222B148A000084CDEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00D249242B148A000084CDEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00D249262B148A000084CDEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00D249292B148A000084CDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00D2492B2B148A020084CDEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00D2492E2B148A020084CDEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00D249302B148A020084CDEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00D249352B148A020084CDEC /* Kapi-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapi-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D249392B148A020084CDEC /* Kapi_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskTests.swift; sourceTree = "<group>"; };
+		00D2493F2B148A030084CDEC /* Kapi-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapi-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITests.swift; sourceTree = "<group>"; };
+		00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kapi_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00D2491C2B148A000084CDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D249322B148A020084CDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D2493C2B148A030084CDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D249162B148A000084CDEC = {
+			isa = PBXGroup;
+			children = (
+				00D249212B148A000084CDEC /* Kapi-Task */,
+				00D249382B148A020084CDEC /* Kapi-TaskTests */,
+				00D249422B148A030084CDEC /* Kapi-TaskUITests */,
+				00D249202B148A000084CDEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00D249202B148A000084CDEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00D2491F2B148A000084CDEC /* Kapi-Task.app */,
+				00D249352B148A020084CDEC /* Kapi-TaskTests.xctest */,
+				00D2493F2B148A030084CDEC /* Kapi-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00D249212B148A000084CDEC /* Kapi-Task */ = {
+			isa = PBXGroup;
+			children = (
+				00D249222B148A000084CDEC /* AppDelegate.swift */,
+				00D249242B148A000084CDEC /* SceneDelegate.swift */,
+				00D249262B148A000084CDEC /* ViewController.swift */,
+				00D249282B148A000084CDEC /* Main.storyboard */,
+				00D2492B2B148A020084CDEC /* Assets.xcassets */,
+				00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */,
+				00D249302B148A020084CDEC /* Info.plist */,
+			);
+			path = "Kapi-Task";
+			sourceTree = "<group>";
+		};
+		00D249382B148A020084CDEC /* Kapi-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				00D249392B148A020084CDEC /* Kapi_TaskTests.swift */,
+			);
+			path = "Kapi-TaskTests";
+			sourceTree = "<group>";
+		};
+		00D249422B148A030084CDEC /* Kapi-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				00D249432B148A030084CDEC /* Kapi_TaskUITests.swift */,
+				00D249452B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Kapi-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00D2491E2B148A000084CDEC /* Kapi-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D249492B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-Task" */;
+			buildPhases = (
+				00D2491B2B148A000084CDEC /* Sources */,
+				00D2491C2B148A000084CDEC /* Frameworks */,
+				00D2491D2B148A000084CDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kapi-Task";
+			productName = "Kapi-Task";
+			productReference = 00D2491F2B148A000084CDEC /* Kapi-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00D249342B148A020084CDEC /* Kapi-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D2494C2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskTests" */;
+			buildPhases = (
+				00D249312B148A020084CDEC /* Sources */,
+				00D249322B148A020084CDEC /* Frameworks */,
+				00D249332B148A020084CDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D249372B148A020084CDEC /* PBXTargetDependency */,
+			);
+			name = "Kapi-TaskTests";
+			productName = "Kapi-TaskTests";
+			productReference = 00D249352B148A020084CDEC /* Kapi-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		00D2493E2B148A030084CDEC /* Kapi-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00D2494F2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskUITests" */;
+			buildPhases = (
+				00D2493B2B148A030084CDEC /* Sources */,
+				00D2493C2B148A030084CDEC /* Frameworks */,
+				00D2493D2B148A030084CDEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00D249412B148A030084CDEC /* PBXTargetDependency */,
+			);
+			name = "Kapi-TaskUITests";
+			productName = "Kapi-TaskUITests";
+			productReference = 00D2493F2B148A030084CDEC /* Kapi-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00D249172B148A000084CDEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					00D2491E2B148A000084CDEC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					00D249342B148A020084CDEC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00D2491E2B148A000084CDEC;
+					};
+					00D2493E2B148A030084CDEC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 00D2491E2B148A000084CDEC;
+					};
+				};
+			};
+			buildConfigurationList = 00D2491A2B148A000084CDEC /* Build configuration list for PBXProject "Kapi-Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00D249162B148A000084CDEC;
+			productRefGroup = 00D249202B148A000084CDEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00D2491E2B148A000084CDEC /* Kapi-Task */,
+				00D249342B148A020084CDEC /* Kapi-TaskTests */,
+				00D2493E2B148A030084CDEC /* Kapi-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00D2491D2B148A000084CDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D2492F2B148A020084CDEC /* LaunchScreen.storyboard in Resources */,
+				00D2492C2B148A020084CDEC /* Assets.xcassets in Resources */,
+				00D2492A2B148A000084CDEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D249332B148A020084CDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D2493D2B148A030084CDEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00D2491B2B148A000084CDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D249272B148A000084CDEC /* ViewController.swift in Sources */,
+				00D249232B148A000084CDEC /* AppDelegate.swift in Sources */,
+				00D249252B148A000084CDEC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D249312B148A020084CDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D2493A2B148A020084CDEC /* Kapi_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00D2493B2B148A030084CDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00D249462B148A030084CDEC /* Kapi_TaskUITestsLaunchTests.swift in Sources */,
+				00D249442B148A030084CDEC /* Kapi_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00D249372B148A020084CDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D2491E2B148A000084CDEC /* Kapi-Task */;
+			targetProxy = 00D249362B148A020084CDEC /* PBXContainerItemProxy */;
+		};
+		00D249412B148A030084CDEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00D2491E2B148A000084CDEC /* Kapi-Task */;
+			targetProxy = 00D249402B148A030084CDEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00D249282B148A000084CDEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D249292B148A000084CDEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00D2492D2B148A020084CDEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00D2492E2B148A020084CDEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00D249472B148A030084CDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00D249482B148A030084CDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00D2494A2B148A030084CDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kapi-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00D2494B2B148A030084CDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kapi-Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00D2494D2B148A030084CDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapi-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kapi-Task";
+			};
+			name = Debug;
+		};
+		00D2494E2B148A030084CDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kapi-Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kapi-Task";
+			};
+			name = Release;
+		};
+		00D249502B148A030084CDEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kapi-Task";
+			};
+			name = Debug;
+		};
+		00D249512B148A030084CDEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Kapi-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kapi-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00D2491A2B148A000084CDEC /* Build configuration list for PBXProject "Kapi-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D249472B148A030084CDEC /* Debug */,
+				00D249482B148A030084CDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D249492B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D2494A2B148A030084CDEC /* Debug */,
+				00D2494B2B148A030084CDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D2494C2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D2494D2B148A030084CDEC /* Debug */,
+				00D2494E2B148A030084CDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00D2494F2B148A030084CDEC /* Build configuration list for PBXNativeTarget "Kapi-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00D249502B148A030084CDEC /* Debug */,
+				00D249512B148A030084CDEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00D249172B148A000084CDEC /* Project object */;
+}
